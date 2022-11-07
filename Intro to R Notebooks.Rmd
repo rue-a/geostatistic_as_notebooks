@@ -1,0 +1,25 @@
+---
+title: "Kurze Einführung in R Notebooks"
+output:
+  html_document:
+    df_print: paged
+---
+
+R Notebooks stellen eine Kombination aus lesbarem Text und ausführbarem Quellcode (z.B. R) dar. Sie eignen sich damit ausgezeichnet dafür Aufgabenstellungen und Lösungen von Programmierbelegen optisch ansprechend und übersichtlich darzustellen. Ein R Notebook ist in Zellen strukturiert, wobei jede Zelle entweder Text oder ausführbaren Quellcode enthält.
+
+
+```{r}
+a <- 13
+b <- 7
+
+a/b
+```
+```{r}
+a*b
+```
+
+```{r}
+a <- 1 
+```
+
+
